@@ -73,6 +73,6 @@ const config: Config = {
       }
     },
   },
-  plugins: [addVariablesForColors, addSvgPatterns],
+  plugins: [require("tailwind-scrollbar-hide"), addVariablesForColors, addSvgPatterns],
 };
 export default config;
